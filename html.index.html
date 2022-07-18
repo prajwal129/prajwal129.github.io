@@ -1,0 +1,48 @@
+<html>
+<head>
+<title>My Customer Info</title>
+</head>
+
+<body>
+    <form id="personalDetails">
+      <h1>Please enter details below</h1>
+      <fieldset id="personalDetailsFormInputs">
+      <div>
+          <label class="inputLabel" for="firstName">First Name</label> 
+          <input id="firstName" class="inputField" type="text" placeholder="Mike" onfocusout="formatInput(this.id)"/>
+      </div>
+      <div>
+        <label class="inputLabel" for="lastName">Last Name</label> 
+        <input id="lastName" class="inputField" type="text" placeholder="Hunt" onfocusout="formatInput(this.id)"/>
+      </div>
+      <div>
+        <label class="inputLabel" for="dateOfBirth">Date of Birth</label> 
+        <input id="dateOfBirth" class="inputField" type="text" placeholder="16/10/1991" onfocusout="formatInput(this.id)"/>
+      </div>
+      <div>
+        <label class="inputLabel" for="emailAddress">Email</label> 
+        <input id="emailAddress" class="inputField" type="text" placeholder="mike.hunter@gmail.com" onfocusout="formatInput(this.id)"/ required >
+      </div>
+      <div>
+<br>
+<br>
+
+ <label for="gender">female</label> 
+        <input type="radio" name="gender">
+ <label for="gender">male</label> 
+        <input type="radio" name="gender">
+
+<br>
+<br>
+<marquee behavior="alternate" direction="right" scrollamount=40><h1>hey</h1></marquee>
+        <label class="inputLabel" for="mobileNumber">Mobile Number</label> 
+        <input id="mobileNumber" class="inputField" type="text" placeholder="(+91)" onfocusout="formatInput(this.id)"/>
+      </div>
+     </fieldset>
+      <input id="submitButton" type="button" value="Submit" onclick="submitCustomerInformation(this.value)"/>
+    </form>
+</body>
+<html>
+    
+  
+    
