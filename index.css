@@ -15,15 +15,13 @@ body {
   align-items: center;
   justify-content: around;
 }
-
 h1 {
   font-size: 4em;
   color: yellow;
   text-align: center;
 }
-
 h2 {
   color: tomato;
   line-height: 10em;
-  font-size: 3em;
+  font-size: 5em;
 }
